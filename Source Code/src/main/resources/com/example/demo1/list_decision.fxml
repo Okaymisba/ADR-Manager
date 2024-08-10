@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="735.0" prefWidth="615.0" style="-fx-background-color: #87CEEB;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.ListDecision">
+   <children>
+      <Text layoutX="120.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To View Your Records, Please Go To the Decions Folder" wrappingWidth="375.13671875">
+         <font>
+            <Font name="MS UI Gothic" size="35.0" />
+         </font>
+      </Text>
+
+      <Circle fill="#87d9ff" layoutX="37.0" layoutY="24.0" onMouseClicked="#list_To_Mainpage" radius="22.0" stroke="BLACK" strokeType="INSIDE" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Line endX="16.0" layoutX="37.0" layoutY="24.0" startX="-15.5" strokeWidth="2.0" />
+      <Line endX="-2.0" endY="-15.0" layoutX="37.0" layoutY="24.0" startX="-15.5" strokeWidth="2.0" />
+      <Line endX="-1.0" endY="13.0" layoutX="37.0" layoutY="24.0" startX="-15.5" strokeWidth="2.0" />
+
+   </children>
+</AnchorPane>

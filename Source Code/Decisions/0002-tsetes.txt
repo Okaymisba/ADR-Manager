@@ -1,0 +1,12 @@
+ TITLE:
+     tsetes
+ DATE:
+     2024-08-08
+ STATUS:
+     tests
+ CONTEXT:
+     testse
+ DECISION:
+     tsetst
+ CONSEQUENCES:
+     tsets
